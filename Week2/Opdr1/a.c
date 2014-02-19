@@ -5,12 +5,22 @@
 #include <time.h> 
 
 
+
+// Breadth first search graph traversal 
+void walk_graph(){
+
+
+}
+
+
+
 int main()
 { 
 	//Generate random graph
 
 	//number of NODES
 	int NODES = 10;
+	int path[NODES];
 
 	int graph[NODES][NODES];
 	int i,j;
